@@ -30,3 +30,5 @@ ctx.moveTo(600,250);
 ctx.lineTo(650,150);
 ctx.lineTo(750,200);
 ctx.stroke();*/
+
+//https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
