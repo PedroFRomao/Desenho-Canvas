@@ -3,7 +3,7 @@ var canvas = document.getElementById("UgCanvas");
 var ctx = canvas.getContext("2d");
 
 //ceu
-ctx.fillStyle="#2e2e2e";
+ctx.fillStyle="#131313";
 ctx.fillRect(0,0,1080,720);
 
 
@@ -40,9 +40,12 @@ ctx.lineTo(620,400);
 ctx.lineTo(640,365);
 ctx.lineTo(600,345);
 ctx.lineTo(580,300);
-ctx.lineTo(590,300);
-
-
+ctx.lineTo(540,300);
+ctx.lineTo(600,260);
+ctx.lineTo(580,200);
+ctx.lineTo(570,190);
+ctx.lineTo(570,190);
+ctx.lineTo(620,120);
 ctx.fill();
 
 //montanha 1
@@ -59,6 +62,16 @@ ctx.lineTo(0,401);
 ctx.lineTo(0,330);
 ctx.fill();
 ctx.stroke();
+
+//sombra montanha 2
+ctx.fillStyle="#4f4f4f";
+ctx.beginPath();
+ctx.moveTo(260,180);
+ctx.lineTo(290,200);
+ctx.lineTo(340,310);
+ctx.lineTo(480,401);
+ctx.lineTo(300,401);
+ctx.fill();
 
 //montanha 3
 ctx.fillStyle="#ffffff";
