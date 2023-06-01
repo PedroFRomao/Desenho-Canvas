@@ -6,10 +6,6 @@ var ctx = canvas.getContext("2d");
 ctx.fillStyle="#131313";
 ctx.fillRect(0,0,1080,720);
 
-
-
-
-
 /*//curva
 ctx.beginPath();
 ctx.moveTo(0,120);
@@ -71,6 +67,10 @@ ctx.lineTo(290,200);
 ctx.lineTo(340,310);
 ctx.lineTo(480,401);
 ctx.lineTo(300,401);
+ctx.lineTo(315,365);
+ctx.lineTo(220,300);
+ctx.lineTo(240,270);
+ctx.lineTo(230,220);
 ctx.fill();
 
 //montanha 3
@@ -87,15 +87,31 @@ ctx.lineTo(670,401);
 ctx.fill();
 ctx.stroke();
 
-//chao
-//ctx.fillStyle="#e0e0e0";
-//ctx.fillRect(0,400,1080,320);
-
-/*//circulo
-ctx.fillStyle="#227bb5";
+//sombra montanha 2
+ctx.fillStyle="#4f4f4f";
 ctx.beginPath();
-ctx.arc(450,250,80,100,Math.PI*2,true);
+ctx.moveTo(925,210);
+ctx.lineTo(1020,320);
+ctx.lineTo(1080,340);
+ctx.lineTo(1080,401);
+ctx.lineTo(1000,401);
+ctx.lineTo(980,370);
+ctx.lineTo(940,375);
+ctx.lineTo(910,335);
+ctx.lineTo(920,315);
+ctx.lineTo(900,290);
+ctx.lineTo(920,250);
+ctx.fill();
+
+//chao
+ctx.fillStyle="#e0e0e0";
+ctx.fillRect(0,400,1080,320);
+
+//circulo
+ctx.fillStyle="#e2e2e2";
+ctx.beginPath();
+ctx.arc(850,100,70,100,Math.PI*2,true);
 ctx.closePath();
-ctx.fill();*/
+ctx.fill();
 
 //https://developer.mozilla.org/pt-BR/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
