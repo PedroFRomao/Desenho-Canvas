@@ -314,7 +314,6 @@ ctx.lineTo(540,150);
 ctx.lineTo(620,120);
 ctx.lineTo(670,260);
 ctx.lineTo(1000,400);
-ctx.lineTo(150,400);
 ctx.fill();
 
 //montanha 2 
@@ -332,7 +331,6 @@ ctx.lineTo(600,260);
 ctx.lineTo(580,200);
 ctx.lineTo(570,190);
 ctx.lineTo(570,190);
-ctx.lineTo(620,120);
 ctx.fill();
 
 //sombra montanha 1
@@ -346,7 +344,6 @@ ctx.lineTo(290,200);
 ctx.lineTo(340,310);
 ctx.lineTo(480,401);
 ctx.lineTo(0,401);
-ctx.lineTo(0,330);
 ctx.fill();
 
 //montanha 1
@@ -396,6 +393,7 @@ ctx.fill();
 //chao
 ctx.fillStyle="#f5f5f5";
 ctx.fillRect(0,400,1080,320);
+ctx.fill();
 
 //caminho
 ctx.fillStyle="#e2e2e2";
